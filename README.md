@@ -16,3 +16,12 @@
 ## Contributing
 
 This repo uses npm workspaces.
+pip install twilio openpyxl
+# افتح الملف: send_whatsapp_messages.py
+# عدّل هذه السطور فقط:
+
+TWILIO_ACCOUNT_SID = "YOUR_ACCOUNT_SID_HERE"      # hamzahضع الخاص بك
+TWILIO_AUTH_TOKEN = "YOUR_AUTH_TOKEN_HERE"         # hamzah ضع الخاص بك
+TWILIO_WHATSAPP_NUMBER = "whatsapp:+966582596185" # رقمك
+python send_whatsapp_messages.py
+
